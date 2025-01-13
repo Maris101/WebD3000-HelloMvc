@@ -2,7 +2,7 @@ namespace WebApplication1.Models
 {
     public class ErrorViewModel
     {
-        //a model
+        //a modelsss!
         public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
