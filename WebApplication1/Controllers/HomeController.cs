@@ -15,7 +15,18 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            return View();
+
+
+            Person person1 = new Person
+            {
+               PersonId = 1,
+                FirstName = "Maris",
+                LastName = "Hume"
+                
+            };
+
+
+            return View(person1);
         }
 
         public IActionResult Privacy()
